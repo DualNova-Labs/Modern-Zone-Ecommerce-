@@ -1664,9 +1664,9 @@ __p+='`),
           e(l).attr("style", M ? "display: none !important;" : "");
         }
         function p() {
-          var M = e('<a class="w-webflow-badge"></a>').attr(
+          var M = e('<a class="w-webflow-badge" style="display:none !important;"></a>').attr(
               "href",
-              "https://webflow.com?utm_campaign=brandjs",
+              "#",
             ),
             g = e("<img>")
               .attr(
