@@ -101,13 +101,12 @@
         group: ",",
         template:
           '{{wf {"path":"symbol","type":"PlainText"} }} {{wf {"path":"amount","type":"CommercePrice"} }} {{wf {"path":"currencyCode","type":"PlainText"} }}',
-        hideDecimalForWholeNumbers: false,
       };
     </script>
   </head>
   <body>
     <div class="utility-page-wrap">
-      <div class="utility-page-content w-password-page w-form">
+      <div class="w-password-page w-form">
         <form
           action="/.wf_auth"
           method="post"
@@ -118,14 +117,13 @@
           data-wf-page-id="65c0cf4e3ab22622087ea5c3"
           data-wf-element-id="65c0cf4e3ab22622087ea5ca00000000000c"
         >
-          <h1 class="heading-h2">Protected Page</h1>
-          <label for="pass" class="w-password-page">Password</label
+          <h1 class="footer-link">Password Protected Page</h1>
+          <label for="pass" class="footer-link">Password</label
           ><input
             class="form-input w-password-page w-input"
             autofocus="true"
             maxlength="256"
             name="pass"
-            data-name="field"
             placeholder="Enter your password"
             type="password"
             id="pass"
